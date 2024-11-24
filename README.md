@@ -13,6 +13,7 @@ Flickr8k Dataset
 	•	Size: The dataset contains 8,000 images, each paired with 5 human-written captions, resulting in a total of 40,000 captions.
 	•	Image Content: Features a diverse range of everyday scenes, including people, animals, objects, and activities, sourced from the Flickr photo-sharing platform. The images vary in composition, lighting, and context, ensuring diversity.
 	•	Captions: Each image is paired with 5 unique, natural language descriptions written from different perspectives. This variability enhances the model’s ability to generate contextually rich captions.
+ 
 The dataset is available here: https://academictorrents.com/details/9dea07ba660a722ae1008c4c8afdd303b6f6e53b
 
 Methodology: 
