@@ -1,5 +1,5 @@
 # cs668-Image-caption-generation
-## **Author**
+## Author
 
 Akhila Locan
 
