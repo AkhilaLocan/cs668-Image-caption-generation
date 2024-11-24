@@ -19,20 +19,24 @@ The dataset is available here: https://academictorrents.com/details/9dea07ba660a
 Methodology: 
 
 This project developed a pipeline integrating deep learning techniques for generating descriptive captions from images, with captions converted to audio for accessibility.
-	1.	Image Feature Extraction
+	
+ 1.	Image Feature Extraction
 	•	Utilized EfficientNetB0, known for its lightweight yet powerful architecture, to extract rich image features efficiently. This model ensures optimal performance in handling diverse image content.
-	2.	Caption Generation
+	
+ 2.	Caption Generation
 	•	Deployed an Encoder-Decoder Transformer model:
 	•	Encoder: Processes extracted image features into contextual embeddings.
 	•	Decoder: Employs a causal attention mechanism to generate a sequence of words for captions, focusing on both prior outputs and encoded image features. This enables fluent and contextually accurate caption generation.
-	3.	Model Training
+	
+ 3.	Model Training
 	•	The model was trained for 5 epochs, achieving an accuracy of 38%, sufficient to produce meaningful captions.
 	•	A training performance plot (accuracy vs. epochs) demonstrates steady convergence over the last 5 epochs.
-	4.	Text-to-Speech (TTS)
+	
+ 4.	Text-to-Speech (TTS)
 	•	Integrated Tacotron 2 for converting generated captions into audio. Tacotron 2 is widely recognized for its high-quality, natural-sounding speech, ensuring accessible auditory feedback.
 
 Results: 
 
-The proposed methodology successfully generates descriptive and semantically rich captions for images, demonstrating strong performance in recognizing prominent objects, such as animals, and identifying colors, which highlights its ability to understand visual elements in diverse scenes. However, the model struggles with identifying specific attributes such as gender, race, and the exact count of people or animals in images, indicating areas for future improvement. The integration of Text-to-Speech (TTS) technology further enhances accessibility by converting captions into natural-sounding audio, enabling visually impaired individuals to interact with visual content independently. Overall, this project showcases the potential of combining computer vision and natural language processing to create inclusive solutions for digital accessibility, laying a strong foundation for future advancements in automated image captioning systems.
+The proposed methodology successfully generates descriptive and semantically rich captions for images, demonstrating strong performance in recognizing prominent objects, such as animals, and identifying colors, which highlights its ability to understand visual elements in diverse scenes. The integration of Text-to-Speech (TTS) technology further enhances accessibility by converting captions into natural-sounding audio, enabling visually impaired individuals to interact with visual content independently. Overall, this project showcases the potential of combining computer vision and natural language processing to create inclusive solutions for digital accessibility, laying a strong foundation for future advancements in automated image captioning systems.
 
 Poster (as an image)
