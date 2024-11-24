@@ -6,6 +6,7 @@ Akhila Locan
 Abstract of the project: 
 
 Many visually impaired individuals depend on textual descriptions to comprehend visual content, but creating these captions manually is often time-consuming and labor-intensive. Automating the generation of image captions significantly improves digital accessibility, particularly on platforms like social networking and photo-sharing sites. By integrating Text-to-Speech (TTS) technology, these captions can be instantly converted into speech, providing real-time access to information. This project explores the development of an automated image caption generation system designed to address these challenges. By combining computer vision and natural language processing, the system generates textual descriptions of images and converts them into speech, enabling visually impaired users to access and interact with visual content more independently. Using the Flickr8k dataset, this study evaluates and compares two neural network architectures—injecting image features into RNNs versus merging them later. The results demonstrate the effectiveness of this approach in fostering inclusivity and enhancing digital accessibility for visually impaired users.
+
 Dataset:
 
 Flickr8k Dataset
