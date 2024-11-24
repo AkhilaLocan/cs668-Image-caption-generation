@@ -1,11 +1,18 @@
 # cs668-Image-caption-generation
 **Author**
+
 Akhila Locan
+
 **Affiliation**
+
 Pace University
+
 **Email**
+
 akhilalocan16@gmail.com
+
 **Project Description**
+
 The goal of this project is to develop a model using deep learning techniques to extract visual features from images and generate grammatically correct captions that accurately describe those features. The model leverages convolutional neural networks (CNNs) for feature extraction and Transformers for generating descriptive captions based on the visual data.
 
 **Abstract of the project**: 
