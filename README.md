@@ -28,7 +28,7 @@ Many visually impaired individuals depend on textual descriptions to comprehend 
 
 Flickr8k Dataset
 	
-        •	Size: The dataset contains 8,000 images, each paired with 5 human-written captions, resulting in a total of 40,000 captions.
+         •	Size: The dataset contains 8,000 images, each paired with 5 human-written captions, resulting in a total of 40,000 captions.
 	
 	•	Image Content: Features a diverse range of everyday scenes, including people, animals, objects, and activities, sourced from the Flickr photo-sharing platform. The images vary in composition, lighting, and context, ensuring diversity.
  
