@@ -38,17 +38,17 @@ The dataset is available here: https://academictorrents.com/details/9dea07ba660a
 
 This project developed a pipeline integrating deep learning techniques for generating descriptive captions from images, with captions converted to audio for accessibility.
 	
-1. Image Feature Extraction
+* Image Feature Extraction
     I used EfficientNetB0 for extracting the image features due to its efficiency and as it also has been proven to have superior performance in image-related tasks. Its lightweight architecture makes it ideal for extracting rich features while maintaining computational efficiency. 
 
-2. Caption Generation
+* Caption Generation
     The core captioning component employs an Encoder-Decoder Transformer model, where the encoder processes the extracted image features into contextual embeddings, and the decoder predicts a sequence of words as captions. The Transformer Decoder Block incorporates a causal attention mechanism to ensure captions are generated in the correct order, with attention focused on both prior generated words and the encoded image features. This allows the model to construct meaningful and fluent captions.
    
-3. Model Training: The model was trained for 60 epochs achieving an accuracy of 40% sufficient to generate meaningful captions for images. A plot illustrating accuracy vs. epochs showcases the training performance and model convergence.
+* Model Training: The model was trained for 60 epochs achieving an accuracy of 40% sufficient to generate meaningful captions for images. A plot illustrating accuracy vs. epochs showcases the training performance and model convergence.
 
-4. Text-to-Speech (TTS): Generated captions were converted into audio using the pyttsx3 library. Pyttsx3 is a lightweight, offline text-to-speech library that provides reliable and efficient speech synthesis, making it a practical choice for applications combining image captioning and auditory feedback.
+* Text-to-Speech (TTS): Generated captions were converted into audio using the pyttsx3 library. Pyttsx3 is a lightweight, offline text-to-speech library that provides reliable and efficient speech synthesis, making it a practical choice for applications combining image captioning and auditory feedback.
 
-5. The model’s performance was evaluated using BLEU scores, which measure alignment between generated and reference captions. BLEU-1 captures word accuracy, while BLEU-4 assesses contextual fluency. Strong scores highlight the model’s ability to generate meaningful and coherent descriptions.
+* The model’s performance was evaluated using BLEU scores, which measure alignment between generated and reference captions. BLEU-1 captures word accuracy, while BLEU-4 assesses contextual fluency. Strong scores highlight the model’s ability to generate meaningful and coherent descriptions.
 
 
 ## **Results**: 
