@@ -37,7 +37,7 @@ The dataset is available here: https://academictorrents.com/details/9dea07ba660a
 
 This project developed a pipeline integrating deep learning techniques for generating descriptive captions from images, with captions converted to audio for accessibility.
 	
- 1.	Image Feature Extraction
+1. Image Feature Extraction
     I used EfficientNetB0 for extracting the image features due to its efficiency and as it also has been proven to have superior performance in image-related tasks. Its lightweight architecture makes it ideal for extracting rich features while maintaining computational efficiency. 
 
 2. Caption Generation
@@ -56,8 +56,8 @@ The proposed methodology was evaluated on the Flickr8k dataset, focusing on the 
 
  Key observations from the evaluation include:
  
-     . Strengths of the Model: The model performs well in recognizing prominent objects such as animals and identifying colors present in the images. This demonstrates its ability to understand visual elements and generate meaningful descriptions for diverse scenes.
-     . Limitations: While the model excels at recognizing objects and colors, it currently struggles to identify genders, race, and the exact number of people/animals in images.
+          . Strengths of the Model:The model performs well in recognizing prominent objects such as animals and identifying colors present in the images. This demonstrates its ability to understand visual elements and generate meaningful descriptions for diverse scenes.
+          . Limitations:While the model excels at recognizing objects and colors, it currently struggles to identify genders, race, and the exact number of people/animals in images.
 
 The results underscore the potential of the model for applications that require image understanding, with generated captions offering meaningful insights into visual content.
 
