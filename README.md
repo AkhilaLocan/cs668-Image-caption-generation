@@ -28,11 +28,9 @@ Many visually impaired individuals depend on textual descriptions to comprehend 
 
 Flickr8k Dataset
 	
-        *     Size: The dataset contains 8,000 images, each paired with 5 human-written captions, resulting in a total of 40,000 captions.
-	
-	*	Image Content: Features a diverse range of everyday scenes, including people, animals, objects, and activities, sourced from the Flickr photo-sharing platform. The images vary in composition, lighting, and context, ensuring diversity.
- 
-	*	Captions: Each image is paired with 5 unique, natural language descriptions written from different perspectives. This variability enhances the model’s ability to generate contextually rich captions.
+ *  Size: The dataset contains 8,000 images, each paired with 5 human-written captions, resulting in a total of 40,000 captions.
+ *  Image Content: Features a diverse range of everyday scenes, including people, animals, objects, and activities, sourced from the Flickr photo-sharing platform. The images vary in composition, lighting, and context, ensuring diversity.
+ * Captions: Each image is paired with 5 unique, natural language descriptions written from different perspectives. This variability enhances the model’s ability to generate contextually rich captions.
  
 The dataset is available here: https://academictorrents.com/details/9dea07ba660a722ae1008c4c8afdd303b6f6e53b
 
@@ -59,8 +57,8 @@ The proposed methodology was evaluated on the Flickr8k dataset, focusing on the 
 
  Key observations from the evaluation include:
  
-          * Strengths of the Model:The model performs well in recognizing prominent objects such as animals and identifying colors present in the images. This demonstrates its ability to understand visual elements and generate meaningful descriptions for diverse scenes.
-          * Limitations:While the model excels at recognizing objects and colors, it currently struggles to identify genders, race, and the exact number of people/animals in images.
+* Strengths of the Model:The model performs well in recognizing prominent objects such as animals and identifying colors present in the images. This demonstrates its ability to understand visual elements and generate meaningful descriptions for diverse scenes.
+*  Limitations:While the model excels at recognizing objects and colors, it currently struggles to identify genders, race, and the exact number of people/animals in images.
 
 The results underscore the potential of the model for applications that require image understanding, with generated captions offering meaningful insights into visual content.
 
