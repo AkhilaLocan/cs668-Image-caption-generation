@@ -55,8 +55,9 @@ This project developed a pipeline integrating deep learning techniques for gener
 The proposed methodology was evaluated on the Flickr8k dataset, focusing on the contextual relevance and quality of the generated captions. The results showcase the model's ability to generate descriptive and semantically rich captions, effectively capturing the essence of the images. 
 
  Key observations from the evaluation include:
-     . Strengths of the Model:The model performs well in recognizing prominent objects such as animals and identifying colors present in the images. This demonstrates its ability to understand visual elements and generate meaningful descriptions for diverse scenes.
-     . Limitations:While the model excels at recognizing objects and colors, it currently struggles to identify genders, race, and the exact number of people/animals in images.
+ 
+     . Strengths of the Model: The model performs well in recognizing prominent objects such as animals and identifying colors present in the images. This demonstrates its ability to understand visual elements and generate meaningful descriptions for diverse scenes.
+     . Limitations: While the model excels at recognizing objects and colors, it currently struggles to identify genders, race, and the exact number of people/animals in images.
 
 The results underscore the potential of the model for applications that require image understanding, with generated captions offering meaningful insights into visual content.
 
