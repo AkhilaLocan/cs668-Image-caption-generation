@@ -38,22 +38,25 @@ The dataset is available here: https://academictorrents.com/details/9dea07ba660a
 This project developed a pipeline integrating deep learning techniques for generating descriptive captions from images, with captions converted to audio for accessibility.
 	
  1.	Image Feature Extraction
-	•	Utilized EfficientNetB0, known for its lightweight yet powerful architecture, to extract rich image features efficiently. This model ensures optimal performance in handling diverse image content.
-	
- 2.	Caption Generation
-	•	Deployed an Encoder-Decoder Transformer model:
-	•	Encoder: Processes extracted image features into contextual embeddings.
-	•	Decoder: Employs a causal attention mechanism to generate a sequence of words for captions, focusing on both prior outputs and encoded image features. This enables fluent and contextually accurate caption generation.
-	
- 3.	Model Training
-	•	The model was trained for 5 epochs, achieving an accuracy of 38%, sufficient to produce meaningful captions.
-	•	A training performance plot (accuracy vs. epochs) demonstrates steady convergence over the last 5 epochs.
-	
- 4.	Text-to-Speech (TTS)
-	•	Integrated Tacotron 2 for converting generated captions into audio. Tacotron 2 is widely recognized for its high-quality, natural-sounding speech, ensuring accessible auditory feedback.
+    I used EfficientNetB0 for extracting the image features due to its efficiency and as it also has been proven to have superior performance in image-related tasks. Its lightweight architecture makes it ideal for extracting rich features while maintaining computational efficiency. 
+
+2. Caption Generation
+    The core captioning component employs an Encoder-Decoder Transformer model, where the encoder processes the extracted image features into contextual embeddings, and the decoder predicts a sequence of words as captions. The Transformer Decoder Block incorporates a causal attention mechanism to ensure captions are generated in the correct order, with attention focused on both prior generated words and the encoded image features. This allows the model to construct meaningful and fluent captions.
+   
+3. Model Training: The model was trained for 60 epochs achieving an accuracy of 40% sufficient to generate meaningful captions for images. A plot illustrating accuracy vs. epochs showcases the training performance and model convergence.
+
+4. Text-to-Speech (TTS): Generated captions were converted into audio using the pyttsx3 library. Pyttsx3 is a lightweight, offline text-to-speech library that provides reliable and efficient speech synthesis, making it a practical choice for applications combining image captioning and auditory feedback.
+
+5. The model’s performance was evaluated using BLEU scores, which measure alignment between generated and reference captions. BLEU-1 captures word accuracy, while BLEU-4 assesses contextual fluency. Strong scores highlight the model’s ability to generate meaningful and coherent descriptions.
+
 
 ## **Results**: 
 
-The proposed methodology successfully generates descriptive and semantically rich captions for images, demonstrating strong performance in recognizing prominent objects, such as animals, and identifying colors, which highlights its ability to understand visual elements in diverse scenes. The integration of Text-to-Speech (TTS) technology further enhances accessibility by converting captions into natural-sounding audio, enabling visually impaired individuals to interact with visual content independently. Overall, this project showcases the potential of combining computer vision and natural language processing to create inclusive solutions for digital accessibility, laying a strong foundation for future advancements in automated image captioning systems.
+The proposed methodology was evaluated on the Flickr8k dataset, focusing on the contextual relevance and quality of the generated captions. The results showcase the model's ability to generate descriptive and semantically rich captions, effectively capturing the essence of the images. 
+## Key observations from the evaluation include:
+     . Strengths of the Model:The model performs well in recognizing prominent objects such as animals and identifying colors present in the images. This demonstrates its ability to understand visual elements and generate meaningful descriptions for diverse scenes.
+     .Limitations:While the model excels at recognizing objects and colors, it currently struggles to identify genders, race, and the exact number of people/animals in images.
+The results underscore the potential of the model for applications that require image understanding, with generated captions offering meaningful insights into visual content.
+
 
 
