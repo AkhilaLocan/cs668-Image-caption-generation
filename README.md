@@ -58,8 +58,12 @@ This project developed a pipeline integrating deep learning techniques for gener
 
 ## **Results**: 
 
-The proposed methodology was evaluated on the Flickr8k dataset, focusing on the contextual relevance and quality of the generated captions. The results showcase the model's ability to generate descriptive and semantically rich captions, effectively capturing the essence of the images. 
+* The proposed methodology was evaluated on the Flickr8k dataset, focusing on the contextual relevance and quality of the generated captions. The results showcase the model's ability to generate descriptive and semantically rich captions, effectively capturing the essence of the images.
+* In evaluating the performance of the image captioning model, BLEU scores provide a more insightful measure than accuracy, as they assess the semantic and syntactic quality of the generated captions.
+* Based on the results obtained for various images, the BLEU-1 score is generally high, indicating good word-level matching between the predicted and reference captions.
+* For instance, the BLEU-1 score of 1.0000 for some images suggests that the model is effectively capturing individual words.
 
+## **Observation** :
  Key observations from the evaluation include:
  
 * Strengths of the Model:The model performs well in recognizing prominent objects such as animals and identifying colors present in the images. This demonstrates its ability to understand visual elements and generate meaningful descriptions for diverse scenes.
