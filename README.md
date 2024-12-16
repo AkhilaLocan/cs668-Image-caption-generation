@@ -1,4 +1,4 @@
-# cs668-Image-caption-generation
+# CS668-Image-caption-generation
 ## Author
 
 Akhila Locan
