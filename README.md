@@ -59,9 +59,14 @@ This project developed a pipeline integrating deep learning techniques for gener
 ## **Results**: 
 
 * The proposed methodology was evaluated on the Flickr8k dataset, focusing on the contextual relevance and quality of the generated captions. The results showcase the model's ability to generate descriptive and semantically rich captions, effectively capturing the essence of the images.
-* In evaluating the performance of the image captioning model, BLEU scores provide a more insightful measure than accuracy, as they assess the semantic and syntactic quality of the generated captions.
-* Based on the results obtained for various images, the BLEU-1 score is generally high, indicating good word-level matching between the predicted and reference captions.
-* For instance, the BLEU-1 score of 1.0000 for some images suggests that the model is effectively capturing individual words.
+* The model successfully generates detailed and meaningful captions that capture the essential elements of the images.
+* It performs well in recognizing key features, such as animals and colors, providing relevant and insightful descriptions.
+* These results demonstrate the model’s potential for image understanding tasks, offering valuable insights into visual content.
+* The model achieved 40% accuracy, but it’s important to note that accuracy isn’t always the best indicator for performance in image captioning tasks.
+* The BLEU-4 score is a more accurate measure, focusing on how fluent and meaningful descriptions are. 
+* The model's high BLEU-4 score implies that it can provide fluent and human-like descriptions as shown in the examples and chart
+
+
 
 ## **Observation** :
  Key observations from the evaluation include:
@@ -71,5 +76,6 @@ This project developed a pipeline integrating deep learning techniques for gener
 
 The results underscore the potential of the model for applications that require image understanding, with generated captions offering meaningful insights into visual content.
 
+![Poster](https://github.com/user-attachments/assets/89a9a637-3faf-4c55-b697-6b022b6ecd20)
 
 
