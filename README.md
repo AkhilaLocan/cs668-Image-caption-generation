@@ -66,16 +66,6 @@ This project developed a pipeline integrating deep learning techniques for gener
 * The BLEU-4 score is a more accurate measure, focusing on how fluent and meaningful descriptions are. 
 * The model's high BLEU-4 score implies that it can provide fluent and human-like descriptions as shown in the examples and chart
 
-
-
-## **Observation** :
- Key observations from the evaluation include:
- 
-* Strengths of the Model:The model performs well in recognizing prominent objects such as animals and identifying colors present in the images. This demonstrates its ability to understand visual elements and generate meaningful descriptions for diverse scenes.
-*  Limitations:While the model excels at recognizing objects and colors, it currently struggles to identify genders, race, and the exact number of people/animals in images.
-
-The results underscore the potential of the model for applications that require image understanding, with generated captions offering meaningful insights into visual content.
-
 ![Poster](https://github.com/user-attachments/assets/89a9a637-3faf-4c55-b697-6b022b6ecd20)
 
 
