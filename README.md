@@ -53,10 +53,6 @@ This project developed a pipeline integrating deep learning techniques for gener
 * The model’s performance was evaluated using BLEU scores, which measure alignment between generated and reference captions. BLEU-1 captures word accuracy, while BLEU-4 assesses contextual fluency. Strong scores highlight the model’s ability to generate meaningful and coherent descriptions.
 
 
-![Picture1](https://github.com/user-attachments/assets/f3ffb325-a0f4-4b71-86b3-f5ea188e0a93)
-
-![Picture2](https://github.com/user-attachments/assets/98582462-1bcb-4f73-b31c-921d60aa955f)
-
 ## **Results**: 
 
 * The proposed methodology was evaluated on the Flickr8k dataset, focusing on the contextual relevance and quality of the generated captions. The results showcase the model's ability to generate descriptive and semantically rich captions, effectively capturing the essence of the images.
@@ -65,7 +61,12 @@ This project developed a pipeline integrating deep learning techniques for gener
 * These results demonstrate the model’s potential for image understanding tasks, offering valuable insights into visual content.
 * The model achieved 40% accuracy, but it’s important to note that accuracy isn’t always the best indicator for performance in image captioning tasks.
 * The BLEU-4 score is a more accurate measure, focusing on how fluent and meaningful descriptions are. 
-* The model's high BLEU-4 score implies that it can provide fluent and human-like descriptions as shown in the examples and chart.
+* The model's high BLEU-4 score implies that it can provide fluent and human-like descriptions as shown in below picture.
+
+![Picture1](https://github.com/user-attachments/assets/f3ffb325-a0f4-4b71-86b3-f5ea188e0a93)
+
+![Picture2](https://github.com/user-attachments/assets/98582462-1bcb-4f73-b31c-921d60aa955f)
+
 
 ![Poster-2](https://github.com/user-attachments/assets/91dfd78d-d5d6-4a0b-a039-5e1ce90798ae)
 
