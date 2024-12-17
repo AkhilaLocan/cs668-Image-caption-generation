@@ -71,7 +71,7 @@ This project developed a pipeline integrating deep learning techniques for gener
 ## **Limitation**: 
 While the model excels at recognizing objects and colors, it currently struggles to identify genders, and the exact number of people/animals in images. 
 
-##Poster
+## **Poster**:
 
 ![Poster-2](https://github.com/user-attachments/assets/91dfd78d-d5d6-4a0b-a039-5e1ce90798ae)
 
