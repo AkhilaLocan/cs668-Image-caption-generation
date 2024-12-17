@@ -51,6 +51,8 @@ This project developed a pipeline integrating deep learning techniques for gener
 * Text-to-Speech (TTS): Generated captions were converted into audio using the pyttsx3 library. Pyttsx3 is a lightweight, offline text-to-speech library that provides reliable and efficient speech synthesis, making it a practical choice for applications combining image captioning and auditory feedback.
 
 * The model’s performance was evaluated using BLEU scores, which measure alignment between generated and reference captions. BLEU-1 captures word accuracy, while BLEU-4 assesses contextual fluency. Strong scores highlight the model’s ability to generate meaningful and coherent descriptions.
+
+
 ![Picture1](https://github.com/user-attachments/assets/f3ffb325-a0f4-4b71-86b3-f5ea188e0a93)
 
 ![Picture2](https://github.com/user-attachments/assets/98582462-1bcb-4f73-b31c-921d60aa955f)
