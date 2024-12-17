@@ -20,9 +20,6 @@ The goal of this project is to develop a model using deep learning techniques to
 * Many visually impaired individuals depend on textual descriptions to comprehend visual content, but creating these captions manually is often time-consuming and labor-intensive. Automating the generation of image captions significantly improves digital accessibility, particularly on platforms like social networking and photo-sharing sites. 
 * By integrating Text-to-Speech (TTS) technology, these captions can be instantly converted into speech, providing real-time access to information.
 * This project explores the development of an automated image caption generation system designed to address these challenges.
-* By combining computer vision and natural language processing, the system generates textual descriptions of images and converts them into speech, enabling visually impaired users to access and interact with visual content more independently.
-* Using the Flickr8k dataset, this study evaluates and compares two neural network architectures—injecting image features into RNNs versus merging them later.
-* The results demonstrate the effectiveness of this approach in fostering inclusivity and enhancing digital accessibility for visually impaired users.
 
 ## **Research Question**:
 * How accurately can an AI model describe complex scenes from images?
@@ -49,12 +46,14 @@ This project developed a pipeline integrating deep learning techniques for gener
 * Caption Generation
     The core captioning component employs an Encoder-Decoder Transformer model, where the encoder processes the extracted image features into contextual embeddings, and the decoder predicts a sequence of words as captions. The Transformer Decoder Block incorporates a causal attention mechanism to ensure captions are generated in the correct order, with attention focused on both prior generated words and the encoded image features. This allows the model to construct meaningful and fluent captions.
    
-* Model Training: The model was trained for 60 epochs achieving an accuracy of 40% sufficient to generate meaningful captions for images. A plot illustrating accuracy vs. epochs showcases the training performance and model convergence.
+* Model Training: The model was trained for 60 epochs achieving an accuracy of 40% to generate meaningful captions for images. A plot illustrating accuracy vs. epochs showcases the training performance and model convergence.
 
 * Text-to-Speech (TTS): Generated captions were converted into audio using the pyttsx3 library. Pyttsx3 is a lightweight, offline text-to-speech library that provides reliable and efficient speech synthesis, making it a practical choice for applications combining image captioning and auditory feedback.
 
 * The model’s performance was evaluated using BLEU scores, which measure alignment between generated and reference captions. BLEU-1 captures word accuracy, while BLEU-4 assesses contextual fluency. Strong scores highlight the model’s ability to generate meaningful and coherent descriptions.
+![Picture1](https://github.com/user-attachments/assets/f3ffb325-a0f4-4b71-86b3-f5ea188e0a93)
 
+![Picture2](https://github.com/user-attachments/assets/98582462-1bcb-4f73-b31c-921d60aa955f)
 
 ## **Results**: 
 
@@ -64,7 +63,7 @@ This project developed a pipeline integrating deep learning techniques for gener
 * These results demonstrate the model’s potential for image understanding tasks, offering valuable insights into visual content.
 * The model achieved 40% accuracy, but it’s important to note that accuracy isn’t always the best indicator for performance in image captioning tasks.
 * The BLEU-4 score is a more accurate measure, focusing on how fluent and meaningful descriptions are. 
-* The model's high BLEU-4 score implies that it can provide fluent and human-like descriptions as shown in the examples and chart
+* The model's high BLEU-4 score implies that it can provide fluent and human-like descriptions as shown in the examples and chart.
 
 ![Poster](https://github.com/user-attachments/assets/89a9a637-3faf-4c55-b697-6b022b6ecd20)
 
